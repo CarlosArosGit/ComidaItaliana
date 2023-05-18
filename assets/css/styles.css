@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient(90deg, #0c5e18 10%, #c0622c 60%, red 75%);
+}
+.contendedor{
+    text-align: center;
+}
+.cardBlanca{
+    text-align: initial;
+    background-color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.contenidoCard{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#card1{
+    height: 260px;
+}
+#card2{
+    height: 760px; 
+}
+#card3{
+    height: 450px;
+}
+.trago{
+    border-left: 0.5px solid #9e9e9e;
+    border-right: 0.5px solid #9e9e9e;
+    border-bottom: 0.5px solid #9e9e9e;
+    align-items: center;
+    height: 40px;
+}
+#cocina1{
+    border-top: 0.5px solid #9e9e9e;
+}
+.cocina{
+    border-left: 0.5px solid #9e9e9e;
+    border-right: 0.5px solid #9e9e9e;
+    border-bottom: 0.5px solid #9e9e9e;
+    align-items: center;
+    height: 200px;
+}
+#trago1{
+    border-top: 0.5px solid #9e9e9e;
+}
+label{
+    font-weight: 600;
+}
+.imgEnsalada{
+width: 80px;
+height: 80px;
+}
+#cuentaTotalP, #total, #producto, #valor{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cardBlanca {
+        width: 100%;
+    }
+    #card1 {
+        height: 330px;
+    }
+    .trago {
+        height: 55px;
+    }
+    .cocina {
+        height: 250px;
+    }
+    #card2 {
+        height: 850px;
+    }
+    #card3 {
+        height: 770px;
+    }
+  }
